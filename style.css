@@ -158,9 +158,11 @@ body{
 {
 
 }
-.projects
-{
+.projects{
 
+    width:90%;
+    margin:auto;
+    padding:80px 0;
 }
 .contact
 {
