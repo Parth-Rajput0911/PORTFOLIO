@@ -1,5 +1,6 @@
-body{
-    margin:0;
+body
+{
+    margin:2px;
     min-height:auto;
 
     background:
@@ -68,7 +69,6 @@ body{
     list-style:none;
     display:flex;
 }
-
 .nav-links li
 {
     margin-left:20px;
@@ -81,7 +81,6 @@ body{
     font-size:20px;
     transition:0.3s;
 }
-
 .nav-links li a:hover
 {
     color:#00bfff;
@@ -116,14 +115,12 @@ body{
 {
     margin-top: 2px;
 }
-
 .status-badge:hover
 {
     transform:translateY(-2px);
     box-shadow:
         0 0 25px rgba(103,245,210,.2);
 }
-
 .dot
 {
     width:8px;
@@ -182,24 +179,89 @@ body{
     max-width:650px;
     color:white;
 }
-.name{
+.name
+{
     font-size:55px;
     margin-bottom:15px;
 }
-.my-para{
+.my-para
+{
     color:#9aa0a9;
     font-size:20px;
     line-height:1.8;
     margin-bottom:30px;
 }
-
 .experience
 {
     width:100%;
     margin:auto;
     padding:80px 0;
 }
-.projects{
+.project-grid
+{
+     display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.project-box
+{
+    flex: 1;
+    min-width: 340px;
+    max-width: 24%;
+    color: white;
+    border-radius: 12px;
+    border: 1px solid #e6e4de;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    background:linear-gradient(
+        135deg,
+        rgba(255,255,255,.10),
+        rgba(255,255,255,.03)
+    );
+
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.12);
+
+    border-radius:25px;
+
+    box-shadow:
+        0 8px 32px rgba(0,0,0,.4),
+        inset 0 1px 1px rgba(255,255,255,.1);
+}
+.project-content
+{
+    padding: 25px 25px 15px 25px;
+}
+.project-tag
+{
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #4a6b5d;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    display: block;
+    margin-bottom: 8px;
+}
+.main-line
+{
+    color: #ffffff;
+}
+.para-1
+{
+    color: rgb(139, 139, 139);
+}
+.head-3
+{
+    color: rgb(166, 165, 165);
+}
+.projects
+{
 
     width:100%;
     margin:auto;
@@ -216,7 +278,8 @@ body{
 {
     color: white;
 }
-.project-card{
+.project-card
+{
     background:#101b30;
     border:1px solid rgba(255,255,255,.08);
     border-radius:28px;
@@ -260,10 +323,11 @@ body{
 {
     text-align: center;
     align-items: center;
+    justify-content: space-around;
 }
 .gradient
 {
-    border-radius: 15px;
+    border-radius: 10px;
     background:linear-gradient(90deg,#7b8cff,#ff72b6);
 }
 .description-outer
@@ -330,7 +394,6 @@ body{
 
     border:1px solid #1f2d48;
 }
-
 @media(max-width:768px)
 {
 
