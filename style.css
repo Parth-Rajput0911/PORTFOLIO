@@ -163,24 +163,12 @@ body{
     padding:80px 20px;
 }
 
-.section-title{
-
+.section-title
+{
     color:#67f5d2;
-
     letter-spacing:6px;
-
     font-size:15px;
-
     margin-bottom:30px;
-}
-
-.contact h1{
-
-    font-size:90px;
-
-    font-weight:800;
-
-    line-height:1;
 }
 .lbt
 {
@@ -270,8 +258,8 @@ body{
 
     transform:translateY(-5px);
 }
-
-@media(max-width:768px){
+@media(max-width:768px)
+{
 
 .btn
 {
