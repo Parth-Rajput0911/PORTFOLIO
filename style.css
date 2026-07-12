@@ -153,11 +153,13 @@ body
     border-radius:50%;
     overflow:hidden;
     background:#111827;
+    margin: 100px;
 }
 .pfp
 {
     width:100%;
     height:100%;
+    
 }
 .contant
 {
@@ -168,9 +170,9 @@ body
 .about
 {
     max-width: 700px;
-    gap:700px;
+    gap:500px;
     min-height:auto;
-    padding:50px; 
+    padding:100px
 }
 .branch
 {
