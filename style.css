@@ -394,14 +394,12 @@ body
 }
 @media(max-width:768px)
 {
-
 .btn
 {
 
     width:100%;
     justify-content:center;
 }
-
 .buttons
 {
 
