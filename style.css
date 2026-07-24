@@ -200,7 +200,7 @@ body
      display: flex;
     gap: 30px;
     justify-content: flex-start;
-    flex-wrap: wrap;
+    
 }
 .project-box
 {
