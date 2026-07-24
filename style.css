@@ -1,6 +1,6 @@
 body
 {
-    margin:2px;
+    margin:18px;
     min-height:auto;
 
     background:
@@ -212,7 +212,7 @@ body
 {
     flex: 1;
     min-width: 340px;
-    max-width: 24%;
+    max-width: 25%;
     color: white;
     border-radius: 12px;
     border: 1px solid #e6e4de;
