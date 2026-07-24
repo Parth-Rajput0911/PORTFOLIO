@@ -148,10 +148,12 @@ body
 }
 .my-image
 {
-    width:300px;
-    height:300px;
+    width:320px;
+    height:320px;
+    display:flex;
     justify-content:center;
     align-items:center;
+    flex-shrink:0;
     border-radius:50%;
     overflow:hidden;
     background:#111827;
@@ -164,15 +166,16 @@ body
 }
 .contant
 {
-    display: flex;
-    justify-content: space-between;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+    flex-wrap:wrap;
 }
 .about
 {
-    max-width:700px;
-    gap:500px;
-    min-height:auto;
-    align-items: right;
+   max-width:700px;
+    width:100%;
 }
 .branch
 {
@@ -181,7 +184,8 @@ body
 }
 .name
 {
-    font-size:55px;
+    font-size:clamp(40px,6vw,70px);
+    line-height:1.1;
     margin-bottom:15px;
 }
 .my-para
