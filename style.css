@@ -138,11 +138,13 @@ body
     font-size:25px;
     margin-bottom:20px;
     text-align:center;
+    
 }
 .home
 {
     width:100%;
     margin:auto;
+    flex-wrap: wrap;
 }
 .my-image
 {
